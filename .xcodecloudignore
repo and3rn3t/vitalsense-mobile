@@ -1,0 +1,41 @@
+# VitalSense Xcode Cloud Ignore File
+# Files and directories to exclude from Xcode Cloud builds
+
+# Documentation (not needed for builds)
+*.md
+docs/
+Documentation/
+
+# Development scripts (not needed for builds)
+cleanup-project.sh
+PROJECT_CLEANUP.md
+
+# Temporary files
+.DS_Store
+.swiftpm/
+*.tmp
+*.log
+
+# Test data that's too large
+TestData/LargeHealthData/
+TestData/*.sqlite
+
+# Legacy files
+*-old.*
+*-backup.*
+Legacy/
+
+# Build artifacts (Xcode Cloud manages these)
+build/
+DerivedData/
+*.xcarchive
+
+# IDE specific files
+.vscode/
+*.sublime-*
+*.idea/
+
+# Development certificates (use Xcode Cloud managed signing)
+*.p12
+*.mobileprovision
+*.certSigningRequest

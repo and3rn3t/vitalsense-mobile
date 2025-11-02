@@ -1,0 +1,1213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AEEA2442EB7EE45005A8F8A /* VitalSenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEA2432EB7EE45005A8F8A /* VitalSenseApp.swift */; };
+		1AEEA2462EB7EE84005A8F8A /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEA2452EB7EE83005A8F8A /* HealthKitManager.swift */; };
+		1AEEA2482EB7EE9E005A8F8A /* GaitAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEA2472EB7EE9E005A8F8A /* GaitAnalyzer.swift */; };
+		1AEEA29A2EB7F0AE005A8F8A /* Shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2702EB7F0AE005A8F8A /* Shared.xcconfig */; };
+		1AEEA29B2EB7F0AE005A8F8A /* NOW_TASKS.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2822EB7F0AE005A8F8A /* NOW_TASKS.md */; };
+		1AEEA29C2EB7F0AE005A8F8A /* SUCCESS_SUMMARY.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2882EB7F0AE005A8F8A /* SUCCESS_SUMMARY.md */; };
+		1AEEA29D2EB7F0AE005A8F8A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA28F2EB7F0AE005A8F8A /* README.md */; };
+		1AEEA29E2EB7F0AE005A8F8A /* launch-status.log in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2642EB7F0AE005A8F8A /* launch-status.log */; };
+		1AEEA29F2EB7F0AE005A8F8A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA28B2EB7F0AE005A8F8A /* README.md */; };
+		1AEEA2A02EB7F0AE005A8F8A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA24B2EB7F0AE005A8F8A /* README.md */; };
+		1AEEA2A12EB7F0AE005A8F8A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2792EB7F0AE005A8F8A /* README.md */; };
+		1AEEA2A22EB7F0AE005A8F8A /* BUILD_OPTIMIZATION_ANALYSIS.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2532EB7F0AE005A8F8A /* BUILD_OPTIMIZATION_ANALYSIS.md */; };
+		1AEEA2A32EB7F0AE005A8F8A /* UI_ENHANCEMENT_IMPLEMENTATION_SUMMARY.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2902EB7F0AE005A8F8A /* UI_ENHANCEMENT_IMPLEMENTATION_SUMMARY.md */; };
+		1AEEA2A42EB7F0AE005A8F8A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2602EB7F0AE005A8F8A /* Info.plist */; };
+		1AEEA2A52EB7F0AE005A8F8A /* validate-app-store.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2712EB7F0AE005A8F8A /* validate-app-store.sh */; };
+		1AEEA2A62EB7F0AE005A8F8A /* RECOVERY_GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2872EB7F0AE005A8F8A /* RECOVERY_GUIDE.md */; };
+		1AEEA2A72EB7F0AE005A8F8A /* UI_ENHANCEMENT_PLAN.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2912EB7F0AE005A8F8A /* UI_ENHANCEMENT_PLAN.md */; };
+		1AEEA2A82EB7F0AE005A8F8A /* execute-launch-now.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA25B2EB7F0AE005A8F8A /* execute-launch-now.sh */; };
+		1AEEA2A92EB7F0AE005A8F8A /* execute-launch.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA25A2EB7F0AE005A8F8A /* execute-launch.sh */; };
+		1AEEA2AA2EB7F0AE005A8F8A /* README-COMPLETE.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA26C2EB7F0AE005A8F8A /* README-COMPLETE.md */; };
+		1AEEA2AB2EB7F0AE005A8F8A /* INDEX.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2942EB7F0AE005A8F8A /* INDEX.md */; };
+		1AEEA2AC2EB7F0AE005A8F8A /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA26D2EB7F0AE005A8F8A /* Release.xcconfig */; };
+		1AEEA2AD2EB7F0AE005A8F8A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA27E2EB7F0AE005A8F8A /* README.md */; };
+		1AEEA2AE2EB7F0AE005A8F8A /* launch-vitalsense.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2652EB7F0AE005A8F8A /* launch-vitalsense.sh */; };
+		1AEEA2AF2EB7F0AE005A8F8A /* InfoWatch.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2612EB7F0AE005A8F8A /* InfoWatch.plist */; };
+		1AEEA2B02EB7F0AE005A8F8A /* LAUNCH-GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2632EB7F0AE005A8F8A /* LAUNCH-GUIDE.md */; };
+		1AEEA2B12EB7F0AE005A8F8A /* OPTIMIZATION_IMPLEMENTATION_SUMMARY.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2672EB7F0AE005A8F8A /* OPTIMIZATION_IMPLEMENTATION_SUMMARY.md */; };
+		1AEEA2B22EB7F0AE005A8F8A /* quick-start.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2692EB7F0AE005A8F8A /* quick-start.sh */; };
+		1AEEA2B32EB7F0AE005A8F8A /* README 2.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA26B2EB7F0AE005A8F8A /* README 2.md */; };
+		1AEEA2B42EB7F0AE005A8F8A /* quick-check.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2682EB7F0AE005A8F8A /* quick-check.sh */; };
+		1AEEA2B52EB7F0AE005A8F8A /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2562EB7F0AE005A8F8A /* Config.plist */; };
+		1AEEA2B62EB7F0AE005A8F8A /* InfoWidgets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2622EB7F0AE005A8F8A /* InfoWidgets.plist */; };
+		1AEEA2B72EB7F0AE005A8F8A /* run-complete-setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA26E2EB7F0AE005A8F8A /* run-complete-setup.sh */; };
+		1AEEA2B82EB7F0AE005A8F8A /* XCODE_SETUP_STEPS.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA28C2EB7F0AE005A8F8A /* XCODE_SETUP_STEPS.md */; };
+		1AEEA2B92EB7F0AE005A8F8A /* WIDGET_IMPLEMENTATION_COMPLETE.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA27F2EB7F0AE005A8F8A /* WIDGET_IMPLEMENTATION_COMPLETE.md */; };
+		1AEEA2BA2EB7F0AE005A8F8A /* PROJECT_OVERVIEW.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2842EB7F0AE005A8F8A /* PROJECT_OVERVIEW.md */; };
+		1AEEA2BB2EB7F0AE005A8F8A /* APP_STORE_SUBMISSION_CHECKLIST.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2512EB7F0AE005A8F8A /* APP_STORE_SUBMISSION_CHECKLIST.md */; };
+		1AEEA2BC2EB7F0AE005A8F8A /* PROJECT_OPTIMIZATION.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2832EB7F0AE005A8F8A /* PROJECT_OPTIMIZATION.md */; };
+		1AEEA2BD2EB7F0AE005A8F8A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA24D2EB7F0AE005A8F8A /* README.md */; };
+		1AEEA2BE2EB7F0AE005A8F8A /* setup-xcode-project.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA26F2EB7F0AE005A8F8A /* setup-xcode-project.sh */; };
+		1AEEA2BF2EB7F0AE005A8F8A /* UI_ENHANCEMENT_SETUP_GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2922EB7F0AE005A8F8A /* UI_ENHANCEMENT_SETUP_GUIDE.md */; };
+		1AEEA2C02EB7F0AE005A8F8A /* APP_STORE_MARKETING.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2502EB7F0AE005A8F8A /* APP_STORE_MARKETING.md */; };
+		1AEEA2C12EB7F0AE005A8F8A /* MAGIC_REPLACE_EXPANSION_SUMMARY.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2952EB7F0AE005A8F8A /* MAGIC_REPLACE_EXPANSION_SUMMARY.md */; };
+		1AEEA2C22EB7F0AE005A8F8A /* ICON_IMPLEMENTATION_SUMMARY.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA27D2EB7F0AE005A8F8A /* ICON_IMPLEMENTATION_SUMMARY.md */; };
+		1AEEA2C32EB7F0AE005A8F8A /* SWIFT_WINDOWS_DEVELOPMENT.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA27A2EB7F0AE005A8F8A /* SWIFT_WINDOWS_DEVELOPMENT.md */; };
+		1AEEA2C42EB7F0AE005A8F8A /* SWIFT_WINDOWS_COMPLETE_SUMMARY.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2972EB7F0AE005A8F8A /* SWIFT_WINDOWS_COMPLETE_SUMMARY.md */; };
+		1AEEA2C52EB7F0AE005A8F8A /* XCODE_PROJECT_VIEW_FIX.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA27B2EB7F0AE005A8F8A /* XCODE_PROJECT_VIEW_FIX.md */; };
+		1AEEA2C62EB7F0AE005A8F8A /* create-screenshots.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2572EB7F0AE005A8F8A /* create-screenshots.sh */; };
+		1AEEA2C72EB7F0AE005A8F8A /* APP_STORE_CONNECT_GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA24F2EB7F0AE005A8F8A /* APP_STORE_CONNECT_GUIDE.md */; };
+		1AEEA2C82EB7F0AE005A8F8A /* VitalSense_iOS_Enhancement_Summary.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2982EB7F0AE005A8F8A /* VitalSense_iOS_Enhancement_Summary.md */; };
+		1AEEA2C92EB7F0AE005A8F8A /* generate-app-icons.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA25E2EB7F0AE005A8F8A /* generate-app-icons.sh */; };
+		1AEEA2CA2EB7F0AE005A8F8A /* make-executable.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2662EB7F0AE005A8F8A /* make-executable.sh */; };
+		1AEEA2CB2EB7F0AE005A8F8A /* PROJECT_STATUS.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2852EB7F0AE005A8F8A /* PROJECT_STATUS.md */; };
+		1AEEA2CC2EB7F0AE005A8F8A /* QUICK_START.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA28A2EB7F0AE005A8F8A /* QUICK_START.md */; };
+		1AEEA2CD2EB7F0AE005A8F8A /* complete-integration.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2552EB7F0AE005A8F8A /* complete-integration.sh */; };
+		1AEEA2CE2EB7F0AE005A8F8A /* Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2522EB7F0AE005A8F8A /* Base.xcconfig */; };
+		1AEEA2CF2EB7F0AE005A8F8A /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2582EB7F0AE005A8F8A /* Debug.xcconfig */; };
+		1AEEA2D02EB7F0AE005A8F8A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2862EB7F0AE005A8F8A /* README.md */; };
+		1AEEA2D12EB7F0AE005A8F8A /* BUILD_SCRIPTS.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2542EB7F0AE005A8F8A /* BUILD_SCRIPTS.md */; };
+		1AEEA2D22EB7F0AE005A8F8A /* XCODE_FINALIZATION_CHECKLIST.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2752EB7F0AE005A8F8A /* XCODE_FINALIZATION_CHECKLIST.md */; };
+		1AEEA2D32EB7F0AE005A8F8A /* FINAL_DEPLOYMENT_CHECKLIST.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA25C2EB7F0AE005A8F8A /* FINAL_DEPLOYMENT_CHECKLIST.md */; };
+		1AEEA2D42EB7F0AE005A8F8A /* development-workflow.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2782EB7F0AE005A8F8A /* development-workflow.md */; };
+		1AEEA2D52EB7F0AE005A8F8A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA26A2EB7F0AE005A8F8A /* README.md */; };
+		1AEEA2D62EB7F0AE005A8F8A /* ORGANIZATION_SUMMARY.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2962EB7F0AE005A8F8A /* ORGANIZATION_SUMMARY.md */; };
+		1AEEA2D72EB7F0AE005A8F8A /* deploy-testflight.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2592EB7F0AE005A8F8A /* deploy-testflight.sh */; };
+		1AEEA2D82EB7F0AE005A8F8A /* XCODE-SETUP-GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2762EB7F0AE005A8F8A /* XCODE-SETUP-GUIDE.md */; };
+		1AEEA2D92EB7F0AE005A8F8A /* XCODE_UI_WALKTHROUGH.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA28D2EB7F0AE005A8F8A /* XCODE_UI_WALKTHROUGH.md */; };
+		1AEEA2DA2EB7F0AE005A8F8A /* WIDGET_IMPLEMENTATION_GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2802EB7F0AE005A8F8A /* WIDGET_IMPLEMENTATION_GUIDE.md */; };
+		1AEEA2DB2EB7F0AE005A8F8A /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEA25F2EB7F0AE005A8F8A /* HealthKitManager.swift */; };
+		1AEEA2DC2EB7F0AE005A8F8A /* VitalSenseWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEA2742EB7F0AE005A8F8A /* VitalSenseWatchApp.swift */; };
+		1AEEA2DD2EB7F0AE005A8F8A /* VitalSenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEA2732EB7F0AE005A8F8A /* VitalSenseApp.swift */; };
+		1AEEA2DE2EB7F0AE005A8F8A /* GaitAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEA25D2EB7F0AE005A8F8A /* GaitAnalyzer.swift */; };
+		1AEEA2E42EB7F0B6005A8F8A /* FastfilePerformance in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2E12EB7F0B6005A8F8A /* FastfilePerformance */; };
+		1AEEA2E52EB7F0B6005A8F8A /* slather.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2E22EB7F0B6005A8F8A /* slather.yml */; };
+		1AEEA2E62EB7F0B6005A8F8A /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2DF2EB7F0B6005A8F8A /* Appfile */; };
+		1AEEA2E72EB7F0B6005A8F8A /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2E02EB7F0B6005A8F8A /* Fastfile */; };
+		1AEEA2F12EB7F0C1005A8F8A /* iOS26HealthComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEA2EC2EB7F0C1005A8F8A /* iOS26HealthComponents.swift */; };
+		1AEEA2F22EB7F0C1005A8F8A /* iOS26ComponentIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEA2EB2EB7F0C1005A8F8A /* iOS26ComponentIntegration.swift */; };
+		1AEEA2F32EB7F0C1005A8F8A /* FallRiskConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEA2E82EB7F0C1005A8F8A /* FallRiskConfig.swift */; };
+		1AEEA2F42EB7F0C1005A8F8A /* iOS26Integration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEA2ED2EB7F0C1005A8F8A /* iOS26Integration.swift */; };
+		1AEEA2F52EB7F0C1005A8F8A /* GaitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEA2E92EB7F0C1005A8F8A /* GaitConfig.swift */; };
+		1AEEA2F62EB7F0C1005A8F8A /* VitalSenseARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEA2EF2EB7F0C1005A8F8A /* VitalSenseARManager.swift */; };
+		1AEEA3142EB7F0C8005A8F8A /* swift-format-windows.ps1 in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA30D2EB7F0C8005A8F8A /* swift-format-windows.ps1 */; };
+		1AEEA3152EB7F0C8005A8F8A /* working_project_builder.py in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA3012EB7F0C8005A8F8A /* working_project_builder.py */; };
+		1AEEA3162EB7F0C8005A8F8A /* deploy-widgets.ps1 in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA3072EB7F0C8005A8F8A /* deploy-widgets.ps1 */; };
+		1AEEA3172EB7F0C8005A8F8A /* deduplicate_project.py in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2FA2EB7F0C8005A8F8A /* deduplicate_project.py */; };
+		1AEEA3182EB7F0C8005A8F8A /* smart_project_import.py in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2FF2EB7F0C8005A8F8A /* smart_project_import.py */; };
+		1AEEA3192EB7F0C8005A8F8A /* test-fastlane-integration.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA3112EB7F0C8005A8F8A /* test-fastlane-integration.sh */; };
+		1AEEA31A2EB7F0C8005A8F8A /* swift-duplicate-types-scan.ps1 in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA30C2EB7F0C8005A8F8A /* swift-duplicate-types-scan.ps1 */; };
+		1AEEA31B2EB7F0C8005A8F8A /* swift-windows-toolkit.ps1 in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA30F2EB7F0C8005A8F8A /* swift-windows-toolkit.ps1 */; };
+		1AEEA31C2EB7F0C8005A8F8A /* deploy-widgets.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA3082EB7F0C8005A8F8A /* deploy-widgets.sh */; };
+		1AEEA31D2EB7F0C8005A8F8A /* SwiftDevelopmentProfile.ps1 in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA3102EB7F0C8005A8F8A /* SwiftDevelopmentProfile.ps1 */; };
+		1AEEA31E2EB7F0C8005A8F8A /* minimal_starter_project.py in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2FD2EB7F0C8005A8F8A /* minimal_starter_project.py */; };
+		1AEEA31F2EB7F0C8005A8F8A /* project_stability_toolkit.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2FE2EB7F0C8005A8F8A /* project_stability_toolkit.sh */; };
+		1AEEA3202EB7F0C8005A8F8A /* swift-lint-windows.ps1 in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA30E2EB7F0C8005A8F8A /* swift-lint-windows.ps1 */; };
+		1AEEA3212EB7F0C8005A8F8A /* create_fresh_project.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2F92EB7F0C8005A8F8A /* create_fresh_project.sh */; };
+		1AEEA3222EB7F0C8005A8F8A /* check_project_health.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2F82EB7F0C8005A8F8A /* check_project_health.sh */; };
+		1AEEA3232EB7F0C8005A8F8A /* debug-exit-status-74.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA3062EB7F0C8005A8F8A /* debug-exit-status-74.sh */; };
+		1AEEA3242EB7F0C8005A8F8A /* build-cache-optimizer.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA3032EB7F0C8005A8F8A /* build-cache-optimizer.sh */; };
+		1AEEA3252EB7F0C8005A8F8A /* fallback-build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA3092EB7F0C8005A8F8A /* fallback-build.sh */; };
+		1AEEA3262EB7F0C8005A8F8A /* build-performance-monitor.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA3042EB7F0C8005A8F8A /* build-performance-monitor.sh */; };
+		1AEEA3272EB7F0C8005A8F8A /* automated_project_import.py in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2F72EB7F0C8005A8F8A /* automated_project_import.py */; };
+		1AEEA3282EB7F0C8005A8F8A /* preflight-xcode-finalization.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA30B2EB7F0C8005A8F8A /* preflight-xcode-finalization.sh */; };
+		1AEEA3292EB7F0C8005A8F8A /* final_project_fix.py in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2FB2EB7F0C8005A8F8A /* final_project_fix.py */; };
+		1AEEA32A2EB7F0C8005A8F8A /* Check-SwiftErrors.ps1 in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA3052EB7F0C8005A8F8A /* Check-SwiftErrors.ps1 */; };
+		1AEEA32B2EB7F0C8005A8F8A /* ultimate_recovery.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA3002EB7F0C8005A8F8A /* ultimate_recovery.sh */; };
+		1AEEA32C2EB7F0C8005A8F8A /* validate-fastfile.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA3122EB7F0C8005A8F8A /* validate-fastfile.sh */; };
+		1AEEA32D2EB7F0C8005A8F8A /* fix_specific_duplicates.py in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA2FC2EB7F0C8005A8F8A /* fix_specific_duplicates.py */; };
+		1AEEA32E2EB7F0C8005A8F8A /* iOS26MigrationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEA30A2EB7F0C8005A8F8A /* iOS26MigrationHelper.swift */; };
+		1AEEA3322EB7F0CF005A8F8A /* VitalSenseCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEA32F2EB7F0CF005A8F8A /* VitalSenseCore.swift */; };
+		1AEEA3372EB7F0D6005A8F8A /* project-health-check.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA3352EB7F0D6005A8F8A /* project-health-check.sh */; };
+		1AEEA3382EB7F0D6005A8F8A /* development-aliases.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA3342EB7F0D6005A8F8A /* development-aliases.sh */; };
+		1AEEA3392EB7F0D6005A8F8A /* dev-env-validator.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEA3332EB7F0D6005A8F8A /* dev-env-validator.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AEEA2272EB7EDEF005A8F8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AEEA2112EB7EDED005A8F8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AEEA2182EB7EDED005A8F8A;
+			remoteInfo = VitalSense;
+		};
+		1AEEA2312EB7EDEF005A8F8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AEEA2112EB7EDED005A8F8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AEEA2182EB7EDED005A8F8A;
+			remoteInfo = VitalSense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AEEA2192EB7EDED005A8F8A /* VitalSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VitalSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEEA2262EB7EDEF005A8F8A /* VitalSenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitalSenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEEA2302EB7EDEF005A8F8A /* VitalSenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitalSenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEEA2432EB7EE45005A8F8A /* VitalSenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalSenseApp.swift; sourceTree = "<group>"; };
+		1AEEA2452EB7EE83005A8F8A /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		1AEEA2472EB7EE9E005A8F8A /* GaitAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaitAnalyzer.swift; sourceTree = "<group>"; };
+		1AEEA24A2EB7EF2F005A8F8A /* VitalSense.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VitalSense.entitlements; sourceTree = "<group>"; };
+		1AEEA24B2EB7F0AE005A8F8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1AEEA24D2EB7F0AE005A8F8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1AEEA24F2EB7F0AE005A8F8A /* APP_STORE_CONNECT_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = APP_STORE_CONNECT_GUIDE.md; sourceTree = "<group>"; };
+		1AEEA2502EB7F0AE005A8F8A /* APP_STORE_MARKETING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = APP_STORE_MARKETING.md; sourceTree = "<group>"; };
+		1AEEA2512EB7F0AE005A8F8A /* APP_STORE_SUBMISSION_CHECKLIST.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = APP_STORE_SUBMISSION_CHECKLIST.md; sourceTree = "<group>"; };
+		1AEEA2522EB7F0AE005A8F8A /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		1AEEA2532EB7F0AE005A8F8A /* BUILD_OPTIMIZATION_ANALYSIS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BUILD_OPTIMIZATION_ANALYSIS.md; sourceTree = "<group>"; };
+		1AEEA2542EB7F0AE005A8F8A /* BUILD_SCRIPTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BUILD_SCRIPTS.md; sourceTree = "<group>"; };
+		1AEEA2552EB7F0AE005A8F8A /* complete-integration.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "complete-integration.sh"; sourceTree = "<group>"; };
+		1AEEA2562EB7F0AE005A8F8A /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		1AEEA2572EB7F0AE005A8F8A /* create-screenshots.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "create-screenshots.sh"; sourceTree = "<group>"; };
+		1AEEA2582EB7F0AE005A8F8A /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		1AEEA2592EB7F0AE005A8F8A /* deploy-testflight.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "deploy-testflight.sh"; sourceTree = "<group>"; };
+		1AEEA25A2EB7F0AE005A8F8A /* execute-launch.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "execute-launch.sh"; sourceTree = "<group>"; };
+		1AEEA25B2EB7F0AE005A8F8A /* execute-launch-now.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "execute-launch-now.sh"; sourceTree = "<group>"; };
+		1AEEA25C2EB7F0AE005A8F8A /* FINAL_DEPLOYMENT_CHECKLIST.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FINAL_DEPLOYMENT_CHECKLIST.md; sourceTree = "<group>"; };
+		1AEEA25D2EB7F0AE005A8F8A /* GaitAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaitAnalyzer.swift; sourceTree = "<group>"; };
+		1AEEA25E2EB7F0AE005A8F8A /* generate-app-icons.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "generate-app-icons.sh"; sourceTree = "<group>"; };
+		1AEEA25F2EB7F0AE005A8F8A /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		1AEEA2602EB7F0AE005A8F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AEEA2612EB7F0AE005A8F8A /* InfoWatch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InfoWatch.plist; sourceTree = "<group>"; };
+		1AEEA2622EB7F0AE005A8F8A /* InfoWidgets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InfoWidgets.plist; sourceTree = "<group>"; };
+		1AEEA2632EB7F0AE005A8F8A /* LAUNCH-GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "LAUNCH-GUIDE.md"; sourceTree = "<group>"; };
+		1AEEA2642EB7F0AE005A8F8A /* launch-status.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = "launch-status.log"; sourceTree = "<group>"; };
+		1AEEA2652EB7F0AE005A8F8A /* launch-vitalsense.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "launch-vitalsense.sh"; sourceTree = "<group>"; };
+		1AEEA2662EB7F0AE005A8F8A /* make-executable.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "make-executable.sh"; sourceTree = "<group>"; };
+		1AEEA2672EB7F0AE005A8F8A /* OPTIMIZATION_IMPLEMENTATION_SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = OPTIMIZATION_IMPLEMENTATION_SUMMARY.md; sourceTree = "<group>"; };
+		1AEEA2682EB7F0AE005A8F8A /* quick-check.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "quick-check.sh"; sourceTree = "<group>"; };
+		1AEEA2692EB7F0AE005A8F8A /* quick-start.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "quick-start.sh"; sourceTree = "<group>"; };
+		1AEEA26A2EB7F0AE005A8F8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1AEEA26B2EB7F0AE005A8F8A /* README 2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README 2.md"; sourceTree = "<group>"; };
+		1AEEA26C2EB7F0AE005A8F8A /* README-COMPLETE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README-COMPLETE.md"; sourceTree = "<group>"; };
+		1AEEA26D2EB7F0AE005A8F8A /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		1AEEA26E2EB7F0AE005A8F8A /* run-complete-setup.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "run-complete-setup.sh"; sourceTree = "<group>"; };
+		1AEEA26F2EB7F0AE005A8F8A /* setup-xcode-project.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "setup-xcode-project.sh"; sourceTree = "<group>"; };
+		1AEEA2702EB7F0AE005A8F8A /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		1AEEA2712EB7F0AE005A8F8A /* validate-app-store.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "validate-app-store.sh"; sourceTree = "<group>"; };
+		1AEEA2722EB7F0AE005A8F8A /* VitalSense.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VitalSense.entitlements; sourceTree = "<group>"; };
+		1AEEA2732EB7F0AE005A8F8A /* VitalSenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalSenseApp.swift; sourceTree = "<group>"; };
+		1AEEA2742EB7F0AE005A8F8A /* VitalSenseWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalSenseWatchApp.swift; sourceTree = "<group>"; };
+		1AEEA2752EB7F0AE005A8F8A /* XCODE_FINALIZATION_CHECKLIST.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = XCODE_FINALIZATION_CHECKLIST.md; sourceTree = "<group>"; };
+		1AEEA2762EB7F0AE005A8F8A /* XCODE-SETUP-GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "XCODE-SETUP-GUIDE.md"; sourceTree = "<group>"; };
+		1AEEA2782EB7F0AE005A8F8A /* development-workflow.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "development-workflow.md"; sourceTree = "<group>"; };
+		1AEEA2792EB7F0AE005A8F8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1AEEA27A2EB7F0AE005A8F8A /* SWIFT_WINDOWS_DEVELOPMENT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SWIFT_WINDOWS_DEVELOPMENT.md; sourceTree = "<group>"; };
+		1AEEA27B2EB7F0AE005A8F8A /* XCODE_PROJECT_VIEW_FIX.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = XCODE_PROJECT_VIEW_FIX.md; sourceTree = "<group>"; };
+		1AEEA27D2EB7F0AE005A8F8A /* ICON_IMPLEMENTATION_SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ICON_IMPLEMENTATION_SUMMARY.md; sourceTree = "<group>"; };
+		1AEEA27E2EB7F0AE005A8F8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1AEEA27F2EB7F0AE005A8F8A /* WIDGET_IMPLEMENTATION_COMPLETE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WIDGET_IMPLEMENTATION_COMPLETE.md; sourceTree = "<group>"; };
+		1AEEA2802EB7F0AE005A8F8A /* WIDGET_IMPLEMENTATION_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WIDGET_IMPLEMENTATION_GUIDE.md; sourceTree = "<group>"; };
+		1AEEA2822EB7F0AE005A8F8A /* NOW_TASKS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NOW_TASKS.md; sourceTree = "<group>"; };
+		1AEEA2832EB7F0AE005A8F8A /* PROJECT_OPTIMIZATION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PROJECT_OPTIMIZATION.md; sourceTree = "<group>"; };
+		1AEEA2842EB7F0AE005A8F8A /* PROJECT_OVERVIEW.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PROJECT_OVERVIEW.md; sourceTree = "<group>"; };
+		1AEEA2852EB7F0AE005A8F8A /* PROJECT_STATUS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PROJECT_STATUS.md; sourceTree = "<group>"; };
+		1AEEA2862EB7F0AE005A8F8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1AEEA2872EB7F0AE005A8F8A /* RECOVERY_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RECOVERY_GUIDE.md; sourceTree = "<group>"; };
+		1AEEA2882EB7F0AE005A8F8A /* SUCCESS_SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SUCCESS_SUMMARY.md; sourceTree = "<group>"; };
+		1AEEA28A2EB7F0AE005A8F8A /* QUICK_START.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = QUICK_START.md; sourceTree = "<group>"; };
+		1AEEA28B2EB7F0AE005A8F8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1AEEA28C2EB7F0AE005A8F8A /* XCODE_SETUP_STEPS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = XCODE_SETUP_STEPS.md; sourceTree = "<group>"; };
+		1AEEA28D2EB7F0AE005A8F8A /* XCODE_UI_WALKTHROUGH.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = XCODE_UI_WALKTHROUGH.md; sourceTree = "<group>"; };
+		1AEEA28F2EB7F0AE005A8F8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1AEEA2902EB7F0AE005A8F8A /* UI_ENHANCEMENT_IMPLEMENTATION_SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UI_ENHANCEMENT_IMPLEMENTATION_SUMMARY.md; sourceTree = "<group>"; };
+		1AEEA2912EB7F0AE005A8F8A /* UI_ENHANCEMENT_PLAN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UI_ENHANCEMENT_PLAN.md; sourceTree = "<group>"; };
+		1AEEA2922EB7F0AE005A8F8A /* UI_ENHANCEMENT_SETUP_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UI_ENHANCEMENT_SETUP_GUIDE.md; sourceTree = "<group>"; };
+		1AEEA2942EB7F0AE005A8F8A /* INDEX.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = INDEX.md; sourceTree = "<group>"; };
+		1AEEA2952EB7F0AE005A8F8A /* MAGIC_REPLACE_EXPANSION_SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MAGIC_REPLACE_EXPANSION_SUMMARY.md; sourceTree = "<group>"; };
+		1AEEA2962EB7F0AE005A8F8A /* ORGANIZATION_SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ORGANIZATION_SUMMARY.md; sourceTree = "<group>"; };
+		1AEEA2972EB7F0AE005A8F8A /* SWIFT_WINDOWS_COMPLETE_SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SWIFT_WINDOWS_COMPLETE_SUMMARY.md; sourceTree = "<group>"; };
+		1AEEA2982EB7F0AE005A8F8A /* VitalSense_iOS_Enhancement_Summary.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VitalSense_iOS_Enhancement_Summary.md; sourceTree = "<group>"; };
+		1AEEA2DF2EB7F0B6005A8F8A /* Appfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		1AEEA2E02EB7F0B6005A8F8A /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		1AEEA2E12EB7F0B6005A8F8A /* FastfilePerformance */ = {isa = PBXFileReference; lastKnownFileType = text; path = FastfilePerformance; sourceTree = "<group>"; };
+		1AEEA2E22EB7F0B6005A8F8A /* slather.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = slather.yml; sourceTree = "<group>"; };
+		1AEEA2E82EB7F0C1005A8F8A /* FallRiskConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallRiskConfig.swift; sourceTree = "<group>"; };
+		1AEEA2E92EB7F0C1005A8F8A /* GaitConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaitConfig.swift; sourceTree = "<group>"; };
+		1AEEA2EB2EB7F0C1005A8F8A /* iOS26ComponentIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS26ComponentIntegration.swift; sourceTree = "<group>"; };
+		1AEEA2EC2EB7F0C1005A8F8A /* iOS26HealthComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS26HealthComponents.swift; sourceTree = "<group>"; };
+		1AEEA2ED2EB7F0C1005A8F8A /* iOS26Integration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS26Integration.swift; sourceTree = "<group>"; };
+		1AEEA2EF2EB7F0C1005A8F8A /* VitalSenseARManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalSenseARManager.swift; sourceTree = "<group>"; };
+		1AEEA2F72EB7F0C8005A8F8A /* automated_project_import.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = automated_project_import.py; sourceTree = "<group>"; };
+		1AEEA2F82EB7F0C8005A8F8A /* check_project_health.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = check_project_health.sh; sourceTree = "<group>"; };
+		1AEEA2F92EB7F0C8005A8F8A /* create_fresh_project.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = create_fresh_project.sh; sourceTree = "<group>"; };
+		1AEEA2FA2EB7F0C8005A8F8A /* deduplicate_project.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = deduplicate_project.py; sourceTree = "<group>"; };
+		1AEEA2FB2EB7F0C8005A8F8A /* final_project_fix.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = final_project_fix.py; sourceTree = "<group>"; };
+		1AEEA2FC2EB7F0C8005A8F8A /* fix_specific_duplicates.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = fix_specific_duplicates.py; sourceTree = "<group>"; };
+		1AEEA2FD2EB7F0C8005A8F8A /* minimal_starter_project.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = minimal_starter_project.py; sourceTree = "<group>"; };
+		1AEEA2FE2EB7F0C8005A8F8A /* project_stability_toolkit.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = project_stability_toolkit.sh; sourceTree = "<group>"; };
+		1AEEA2FF2EB7F0C8005A8F8A /* smart_project_import.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = smart_project_import.py; sourceTree = "<group>"; };
+		1AEEA3002EB7F0C8005A8F8A /* ultimate_recovery.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ultimate_recovery.sh; sourceTree = "<group>"; };
+		1AEEA3012EB7F0C8005A8F8A /* working_project_builder.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = working_project_builder.py; sourceTree = "<group>"; };
+		1AEEA3032EB7F0C8005A8F8A /* build-cache-optimizer.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "build-cache-optimizer.sh"; sourceTree = "<group>"; };
+		1AEEA3042EB7F0C8005A8F8A /* build-performance-monitor.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "build-performance-monitor.sh"; sourceTree = "<group>"; };
+		1AEEA3052EB7F0C8005A8F8A /* Check-SwiftErrors.ps1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Check-SwiftErrors.ps1"; sourceTree = "<group>"; };
+		1AEEA3062EB7F0C8005A8F8A /* debug-exit-status-74.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "debug-exit-status-74.sh"; sourceTree = "<group>"; };
+		1AEEA3072EB7F0C8005A8F8A /* deploy-widgets.ps1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "deploy-widgets.ps1"; sourceTree = "<group>"; };
+		1AEEA3082EB7F0C8005A8F8A /* deploy-widgets.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "deploy-widgets.sh"; sourceTree = "<group>"; };
+		1AEEA3092EB7F0C8005A8F8A /* fallback-build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "fallback-build.sh"; sourceTree = "<group>"; };
+		1AEEA30A2EB7F0C8005A8F8A /* iOS26MigrationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS26MigrationHelper.swift; sourceTree = "<group>"; };
+		1AEEA30B2EB7F0C8005A8F8A /* preflight-xcode-finalization.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "preflight-xcode-finalization.sh"; sourceTree = "<group>"; };
+		1AEEA30C2EB7F0C8005A8F8A /* swift-duplicate-types-scan.ps1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "swift-duplicate-types-scan.ps1"; sourceTree = "<group>"; };
+		1AEEA30D2EB7F0C8005A8F8A /* swift-format-windows.ps1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "swift-format-windows.ps1"; sourceTree = "<group>"; };
+		1AEEA30E2EB7F0C8005A8F8A /* swift-lint-windows.ps1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "swift-lint-windows.ps1"; sourceTree = "<group>"; };
+		1AEEA30F2EB7F0C8005A8F8A /* swift-windows-toolkit.ps1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "swift-windows-toolkit.ps1"; sourceTree = "<group>"; };
+		1AEEA3102EB7F0C8005A8F8A /* SwiftDevelopmentProfile.ps1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftDevelopmentProfile.ps1; sourceTree = "<group>"; };
+		1AEEA3112EB7F0C8005A8F8A /* test-fastlane-integration.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "test-fastlane-integration.sh"; sourceTree = "<group>"; };
+		1AEEA3122EB7F0C8005A8F8A /* validate-fastfile.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "validate-fastfile.sh"; sourceTree = "<group>"; };
+		1AEEA32F2EB7F0CF005A8F8A /* VitalSenseCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalSenseCore.swift; sourceTree = "<group>"; };
+		1AEEA3332EB7F0D6005A8F8A /* dev-env-validator.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "dev-env-validator.sh"; sourceTree = "<group>"; };
+		1AEEA3342EB7F0D6005A8F8A /* development-aliases.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "development-aliases.sh"; sourceTree = "<group>"; };
+		1AEEA3352EB7F0D6005A8F8A /* project-health-check.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "project-health-check.sh"; sourceTree = "<group>"; };
+		1AEEA33A2EB7F128005A8F8A /* VitalSense.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = VitalSense.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1AEEA21B2EB7EDED005A8F8A /* VitalSense */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VitalSense;
+			sourceTree = "<group>";
+		};
+		1AEEA2292EB7EDEF005A8F8A /* VitalSenseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VitalSenseTests;
+			sourceTree = "<group>";
+		};
+		1AEEA2332EB7EDEF005A8F8A /* VitalSenseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VitalSenseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AEEA2162EB7EDED005A8F8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEEA2232EB7EDEF005A8F8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEEA22D2EB7EDEF005A8F8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AEEA2102EB7EDED005A8F8A = {
+			isa = PBXGroup;
+			children = (
+				1AEEA21B2EB7EDED005A8F8A /* VitalSense */,
+				1AEEA2292EB7EDEF005A8F8A /* VitalSenseTests */,
+				1AEEA2332EB7EDEF005A8F8A /* VitalSenseUITests */,
+				1AEEA21A2EB7EDED005A8F8A /* Products */,
+				1AEEA2432EB7EE45005A8F8A /* VitalSenseApp.swift */,
+				1AEEA2452EB7EE83005A8F8A /* HealthKitManager.swift */,
+				1AEEA2472EB7EE9E005A8F8A /* GaitAnalyzer.swift */,
+				1AEEA24A2EB7EF2F005A8F8A /* VitalSense.entitlements */,
+				1AEEA2992EB7F0AE005A8F8A /* docs */,
+				1AEEA2E32EB7F0B6005A8F8A /* fastlane */,
+				1AEEA2F02EB7F0C1005A8F8A /* HealthKitBridge */,
+				1AEEA3132EB7F0C8005A8F8A /* scripts */,
+				1AEEA3312EB7F0CF005A8F8A /* Sources */,
+				1AEEA3362EB7F0D6005A8F8A /* tools */,
+				1AEEA33A2EB7F128005A8F8A /* VitalSense.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		1AEEA21A2EB7EDED005A8F8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA2192EB7EDED005A8F8A /* VitalSense.app */,
+				1AEEA2262EB7EDEF005A8F8A /* VitalSenseTests.xctest */,
+				1AEEA2302EB7EDEF005A8F8A /* VitalSenseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AEEA24C2EB7F0AE005A8F8A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA24B2EB7F0AE005A8F8A /* README.md */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1AEEA24E2EB7F0AE005A8F8A /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA24D2EB7F0AE005A8F8A /* README.md */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		1AEEA2772EB7F0AE005A8F8A /* Build-Deploy */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA24F2EB7F0AE005A8F8A /* APP_STORE_CONNECT_GUIDE.md */,
+				1AEEA2502EB7F0AE005A8F8A /* APP_STORE_MARKETING.md */,
+				1AEEA2512EB7F0AE005A8F8A /* APP_STORE_SUBMISSION_CHECKLIST.md */,
+				1AEEA2522EB7F0AE005A8F8A /* Base.xcconfig */,
+				1AEEA2532EB7F0AE005A8F8A /* BUILD_OPTIMIZATION_ANALYSIS.md */,
+				1AEEA2542EB7F0AE005A8F8A /* BUILD_SCRIPTS.md */,
+				1AEEA2552EB7F0AE005A8F8A /* complete-integration.sh */,
+				1AEEA2562EB7F0AE005A8F8A /* Config.plist */,
+				1AEEA2572EB7F0AE005A8F8A /* create-screenshots.sh */,
+				1AEEA2582EB7F0AE005A8F8A /* Debug.xcconfig */,
+				1AEEA2592EB7F0AE005A8F8A /* deploy-testflight.sh */,
+				1AEEA25A2EB7F0AE005A8F8A /* execute-launch.sh */,
+				1AEEA25B2EB7F0AE005A8F8A /* execute-launch-now.sh */,
+				1AEEA25C2EB7F0AE005A8F8A /* FINAL_DEPLOYMENT_CHECKLIST.md */,
+				1AEEA25D2EB7F0AE005A8F8A /* GaitAnalyzer.swift */,
+				1AEEA25E2EB7F0AE005A8F8A /* generate-app-icons.sh */,
+				1AEEA25F2EB7F0AE005A8F8A /* HealthKitManager.swift */,
+				1AEEA2602EB7F0AE005A8F8A /* Info.plist */,
+				1AEEA2612EB7F0AE005A8F8A /* InfoWatch.plist */,
+				1AEEA2622EB7F0AE005A8F8A /* InfoWidgets.plist */,
+				1AEEA2632EB7F0AE005A8F8A /* LAUNCH-GUIDE.md */,
+				1AEEA2642EB7F0AE005A8F8A /* launch-status.log */,
+				1AEEA2652EB7F0AE005A8F8A /* launch-vitalsense.sh */,
+				1AEEA2662EB7F0AE005A8F8A /* make-executable.sh */,
+				1AEEA2672EB7F0AE005A8F8A /* OPTIMIZATION_IMPLEMENTATION_SUMMARY.md */,
+				1AEEA2682EB7F0AE005A8F8A /* quick-check.sh */,
+				1AEEA2692EB7F0AE005A8F8A /* quick-start.sh */,
+				1AEEA26A2EB7F0AE005A8F8A /* README.md */,
+				1AEEA26B2EB7F0AE005A8F8A /* README 2.md */,
+				1AEEA26C2EB7F0AE005A8F8A /* README-COMPLETE.md */,
+				1AEEA26D2EB7F0AE005A8F8A /* Release.xcconfig */,
+				1AEEA26E2EB7F0AE005A8F8A /* run-complete-setup.sh */,
+				1AEEA26F2EB7F0AE005A8F8A /* setup-xcode-project.sh */,
+				1AEEA2702EB7F0AE005A8F8A /* Shared.xcconfig */,
+				1AEEA2712EB7F0AE005A8F8A /* validate-app-store.sh */,
+				1AEEA2722EB7F0AE005A8F8A /* VitalSense.entitlements */,
+				1AEEA2732EB7F0AE005A8F8A /* VitalSenseApp.swift */,
+				1AEEA2742EB7F0AE005A8F8A /* VitalSenseWatchApp.swift */,
+				1AEEA2752EB7F0AE005A8F8A /* XCODE_FINALIZATION_CHECKLIST.md */,
+				1AEEA2762EB7F0AE005A8F8A /* XCODE-SETUP-GUIDE.md */,
+			);
+			path = "Build-Deploy";
+			sourceTree = "<group>";
+		};
+		1AEEA27C2EB7F0AE005A8F8A /* Development */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA2782EB7F0AE005A8F8A /* development-workflow.md */,
+				1AEEA2792EB7F0AE005A8F8A /* README.md */,
+				1AEEA27A2EB7F0AE005A8F8A /* SWIFT_WINDOWS_DEVELOPMENT.md */,
+				1AEEA27B2EB7F0AE005A8F8A /* XCODE_PROJECT_VIEW_FIX.md */,
+			);
+			path = Development;
+			sourceTree = "<group>";
+		};
+		1AEEA2812EB7F0AE005A8F8A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA27D2EB7F0AE005A8F8A /* ICON_IMPLEMENTATION_SUMMARY.md */,
+				1AEEA27E2EB7F0AE005A8F8A /* README.md */,
+				1AEEA27F2EB7F0AE005A8F8A /* WIDGET_IMPLEMENTATION_COMPLETE.md */,
+				1AEEA2802EB7F0AE005A8F8A /* WIDGET_IMPLEMENTATION_GUIDE.md */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		1AEEA2892EB7F0AE005A8F8A /* Project-Management */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA2822EB7F0AE005A8F8A /* NOW_TASKS.md */,
+				1AEEA2832EB7F0AE005A8F8A /* PROJECT_OPTIMIZATION.md */,
+				1AEEA2842EB7F0AE005A8F8A /* PROJECT_OVERVIEW.md */,
+				1AEEA2852EB7F0AE005A8F8A /* PROJECT_STATUS.md */,
+				1AEEA2862EB7F0AE005A8F8A /* README.md */,
+				1AEEA2872EB7F0AE005A8F8A /* RECOVERY_GUIDE.md */,
+				1AEEA2882EB7F0AE005A8F8A /* SUCCESS_SUMMARY.md */,
+			);
+			path = "Project-Management";
+			sourceTree = "<group>";
+		};
+		1AEEA28E2EB7F0AE005A8F8A /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA28A2EB7F0AE005A8F8A /* QUICK_START.md */,
+				1AEEA28B2EB7F0AE005A8F8A /* README.md */,
+				1AEEA28C2EB7F0AE005A8F8A /* XCODE_SETUP_STEPS.md */,
+				1AEEA28D2EB7F0AE005A8F8A /* XCODE_UI_WALKTHROUGH.md */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		1AEEA2932EB7F0AE005A8F8A /* UI-UX */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA28F2EB7F0AE005A8F8A /* README.md */,
+				1AEEA2902EB7F0AE005A8F8A /* UI_ENHANCEMENT_IMPLEMENTATION_SUMMARY.md */,
+				1AEEA2912EB7F0AE005A8F8A /* UI_ENHANCEMENT_PLAN.md */,
+				1AEEA2922EB7F0AE005A8F8A /* UI_ENHANCEMENT_SETUP_GUIDE.md */,
+			);
+			path = "UI-UX";
+			sourceTree = "<group>";
+		};
+		1AEEA2992EB7F0AE005A8F8A /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA24C2EB7F0AE005A8F8A /* API */,
+				1AEEA24E2EB7F0AE005A8F8A /* Architecture */,
+				1AEEA2772EB7F0AE005A8F8A /* Build-Deploy */,
+				1AEEA27C2EB7F0AE005A8F8A /* Development */,
+				1AEEA2812EB7F0AE005A8F8A /* Features */,
+				1AEEA2892EB7F0AE005A8F8A /* Project-Management */,
+				1AEEA28E2EB7F0AE005A8F8A /* Setup */,
+				1AEEA2932EB7F0AE005A8F8A /* UI-UX */,
+				1AEEA2942EB7F0AE005A8F8A /* INDEX.md */,
+				1AEEA2952EB7F0AE005A8F8A /* MAGIC_REPLACE_EXPANSION_SUMMARY.md */,
+				1AEEA2962EB7F0AE005A8F8A /* ORGANIZATION_SUMMARY.md */,
+				1AEEA2972EB7F0AE005A8F8A /* SWIFT_WINDOWS_COMPLETE_SUMMARY.md */,
+				1AEEA2982EB7F0AE005A8F8A /* VitalSense_iOS_Enhancement_Summary.md */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		1AEEA2E32EB7F0B6005A8F8A /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA2DF2EB7F0B6005A8F8A /* Appfile */,
+				1AEEA2E02EB7F0B6005A8F8A /* Fastfile */,
+				1AEEA2E12EB7F0B6005A8F8A /* FastfilePerformance */,
+				1AEEA2E22EB7F0B6005A8F8A /* slather.yml */,
+			);
+			path = fastlane;
+			sourceTree = "<group>";
+		};
+		1AEEA2EA2EB7F0C1005A8F8A /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA2E82EB7F0C1005A8F8A /* FallRiskConfig.swift */,
+				1AEEA2E92EB7F0C1005A8F8A /* GaitConfig.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		1AEEA2EE2EB7F0C1005A8F8A /* iOS26Enhancements */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA2EB2EB7F0C1005A8F8A /* iOS26ComponentIntegration.swift */,
+				1AEEA2EC2EB7F0C1005A8F8A /* iOS26HealthComponents.swift */,
+				1AEEA2ED2EB7F0C1005A8F8A /* iOS26Integration.swift */,
+			);
+			path = iOS26Enhancements;
+			sourceTree = "<group>";
+		};
+		1AEEA2F02EB7F0C1005A8F8A /* HealthKitBridge */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA2EA2EB7F0C1005A8F8A /* Generated */,
+				1AEEA2EE2EB7F0C1005A8F8A /* iOS26Enhancements */,
+				1AEEA2EF2EB7F0C1005A8F8A /* VitalSenseARManager.swift */,
+			);
+			path = HealthKitBridge;
+			sourceTree = "<group>";
+		};
+		1AEEA3022EB7F0C8005A8F8A /* Recovery */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA2F72EB7F0C8005A8F8A /* automated_project_import.py */,
+				1AEEA2F82EB7F0C8005A8F8A /* check_project_health.sh */,
+				1AEEA2F92EB7F0C8005A8F8A /* create_fresh_project.sh */,
+				1AEEA2FA2EB7F0C8005A8F8A /* deduplicate_project.py */,
+				1AEEA2FB2EB7F0C8005A8F8A /* final_project_fix.py */,
+				1AEEA2FC2EB7F0C8005A8F8A /* fix_specific_duplicates.py */,
+				1AEEA2FD2EB7F0C8005A8F8A /* minimal_starter_project.py */,
+				1AEEA2FE2EB7F0C8005A8F8A /* project_stability_toolkit.sh */,
+				1AEEA2FF2EB7F0C8005A8F8A /* smart_project_import.py */,
+				1AEEA3002EB7F0C8005A8F8A /* ultimate_recovery.sh */,
+				1AEEA3012EB7F0C8005A8F8A /* working_project_builder.py */,
+			);
+			path = Recovery;
+			sourceTree = "<group>";
+		};
+		1AEEA3132EB7F0C8005A8F8A /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA3022EB7F0C8005A8F8A /* Recovery */,
+				1AEEA3032EB7F0C8005A8F8A /* build-cache-optimizer.sh */,
+				1AEEA3042EB7F0C8005A8F8A /* build-performance-monitor.sh */,
+				1AEEA3052EB7F0C8005A8F8A /* Check-SwiftErrors.ps1 */,
+				1AEEA3062EB7F0C8005A8F8A /* debug-exit-status-74.sh */,
+				1AEEA3072EB7F0C8005A8F8A /* deploy-widgets.ps1 */,
+				1AEEA3082EB7F0C8005A8F8A /* deploy-widgets.sh */,
+				1AEEA3092EB7F0C8005A8F8A /* fallback-build.sh */,
+				1AEEA30A2EB7F0C8005A8F8A /* iOS26MigrationHelper.swift */,
+				1AEEA30B2EB7F0C8005A8F8A /* preflight-xcode-finalization.sh */,
+				1AEEA30C2EB7F0C8005A8F8A /* swift-duplicate-types-scan.ps1 */,
+				1AEEA30D2EB7F0C8005A8F8A /* swift-format-windows.ps1 */,
+				1AEEA30E2EB7F0C8005A8F8A /* swift-lint-windows.ps1 */,
+				1AEEA30F2EB7F0C8005A8F8A /* swift-windows-toolkit.ps1 */,
+				1AEEA3102EB7F0C8005A8F8A /* SwiftDevelopmentProfile.ps1 */,
+				1AEEA3112EB7F0C8005A8F8A /* test-fastlane-integration.sh */,
+				1AEEA3122EB7F0C8005A8F8A /* validate-fastfile.sh */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		1AEEA3302EB7F0CF005A8F8A /* VitalSenseCore */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA32F2EB7F0CF005A8F8A /* VitalSenseCore.swift */,
+			);
+			path = VitalSenseCore;
+			sourceTree = "<group>";
+		};
+		1AEEA3312EB7F0CF005A8F8A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA3302EB7F0CF005A8F8A /* VitalSenseCore */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1AEEA3362EB7F0D6005A8F8A /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				1AEEA3332EB7F0D6005A8F8A /* dev-env-validator.sh */,
+				1AEEA3342EB7F0D6005A8F8A /* development-aliases.sh */,
+				1AEEA3352EB7F0D6005A8F8A /* project-health-check.sh */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		1AEEA33B2EB7F128005A8F8A /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AEEA2182EB7EDED005A8F8A /* VitalSense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEEA23A2EB7EDEF005A8F8A /* Build configuration list for PBXNativeTarget "VitalSense" */;
+			buildPhases = (
+				1AEEA2152EB7EDED005A8F8A /* Sources */,
+				1AEEA2162EB7EDED005A8F8A /* Frameworks */,
+				1AEEA2172EB7EDED005A8F8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1AEEA21B2EB7EDED005A8F8A /* VitalSense */,
+			);
+			name = VitalSense;
+			packageProductDependencies = (
+			);
+			productName = VitalSense;
+			productReference = 1AEEA2192EB7EDED005A8F8A /* VitalSense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AEEA2252EB7EDEF005A8F8A /* VitalSenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEEA23D2EB7EDEF005A8F8A /* Build configuration list for PBXNativeTarget "VitalSenseTests" */;
+			buildPhases = (
+				1AEEA2222EB7EDEF005A8F8A /* Sources */,
+				1AEEA2232EB7EDEF005A8F8A /* Frameworks */,
+				1AEEA2242EB7EDEF005A8F8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AEEA2282EB7EDEF005A8F8A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1AEEA2292EB7EDEF005A8F8A /* VitalSenseTests */,
+			);
+			name = VitalSenseTests;
+			packageProductDependencies = (
+			);
+			productName = VitalSenseTests;
+			productReference = 1AEEA2262EB7EDEF005A8F8A /* VitalSenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AEEA22F2EB7EDEF005A8F8A /* VitalSenseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEEA2402EB7EDEF005A8F8A /* Build configuration list for PBXNativeTarget "VitalSenseUITests" */;
+			buildPhases = (
+				1AEEA22C2EB7EDEF005A8F8A /* Sources */,
+				1AEEA22D2EB7EDEF005A8F8A /* Frameworks */,
+				1AEEA22E2EB7EDEF005A8F8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AEEA2322EB7EDEF005A8F8A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1AEEA2332EB7EDEF005A8F8A /* VitalSenseUITests */,
+			);
+			name = VitalSenseUITests;
+			packageProductDependencies = (
+			);
+			productName = VitalSenseUITests;
+			productReference = 1AEEA2302EB7EDEF005A8F8A /* VitalSenseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AEEA2112EB7EDED005A8F8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					1AEEA2182EB7EDED005A8F8A = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					1AEEA2252EB7EDEF005A8F8A = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 1AEEA2182EB7EDED005A8F8A;
+					};
+					1AEEA22F2EB7EDEF005A8F8A = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 1AEEA2182EB7EDED005A8F8A;
+					};
+				};
+			};
+			buildConfigurationList = 1AEEA2142EB7EDED005A8F8A /* Build configuration list for PBXProject "VitalSense" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AEEA2102EB7EDED005A8F8A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1AEEA21A2EB7EDED005A8F8A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1AEEA33B2EB7F128005A8F8A /* Products */;
+					ProjectRef = 1AEEA33A2EB7F128005A8F8A /* VitalSense.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1AEEA2182EB7EDED005A8F8A /* VitalSense */,
+				1AEEA2252EB7EDEF005A8F8A /* VitalSenseTests */,
+				1AEEA22F2EB7EDEF005A8F8A /* VitalSenseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AEEA2172EB7EDED005A8F8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEEA29A2EB7F0AE005A8F8A /* Shared.xcconfig in Resources */,
+				1AEEA29B2EB7F0AE005A8F8A /* NOW_TASKS.md in Resources */,
+				1AEEA29C2EB7F0AE005A8F8A /* SUCCESS_SUMMARY.md in Resources */,
+				1AEEA29D2EB7F0AE005A8F8A /* README.md in Resources */,
+				1AEEA29E2EB7F0AE005A8F8A /* launch-status.log in Resources */,
+				1AEEA29F2EB7F0AE005A8F8A /* README.md in Resources */,
+				1AEEA2A02EB7F0AE005A8F8A /* README.md in Resources */,
+				1AEEA2A12EB7F0AE005A8F8A /* README.md in Resources */,
+				1AEEA2A22EB7F0AE005A8F8A /* BUILD_OPTIMIZATION_ANALYSIS.md in Resources */,
+				1AEEA2A32EB7F0AE005A8F8A /* UI_ENHANCEMENT_IMPLEMENTATION_SUMMARY.md in Resources */,
+				1AEEA2A42EB7F0AE005A8F8A /* Info.plist in Resources */,
+				1AEEA2A52EB7F0AE005A8F8A /* validate-app-store.sh in Resources */,
+				1AEEA2E42EB7F0B6005A8F8A /* FastfilePerformance in Resources */,
+				1AEEA2E52EB7F0B6005A8F8A /* slather.yml in Resources */,
+				1AEEA2E62EB7F0B6005A8F8A /* Appfile in Resources */,
+				1AEEA3372EB7F0D6005A8F8A /* project-health-check.sh in Resources */,
+				1AEEA3382EB7F0D6005A8F8A /* development-aliases.sh in Resources */,
+				1AEEA3392EB7F0D6005A8F8A /* dev-env-validator.sh in Resources */,
+				1AEEA2E72EB7F0B6005A8F8A /* Fastfile in Resources */,
+				1AEEA2A62EB7F0AE005A8F8A /* RECOVERY_GUIDE.md in Resources */,
+				1AEEA2A72EB7F0AE005A8F8A /* UI_ENHANCEMENT_PLAN.md in Resources */,
+				1AEEA2A82EB7F0AE005A8F8A /* execute-launch-now.sh in Resources */,
+				1AEEA2A92EB7F0AE005A8F8A /* execute-launch.sh in Resources */,
+				1AEEA2AA2EB7F0AE005A8F8A /* README-COMPLETE.md in Resources */,
+				1AEEA2AB2EB7F0AE005A8F8A /* INDEX.md in Resources */,
+				1AEEA2AC2EB7F0AE005A8F8A /* Release.xcconfig in Resources */,
+				1AEEA2AD2EB7F0AE005A8F8A /* README.md in Resources */,
+				1AEEA3142EB7F0C8005A8F8A /* swift-format-windows.ps1 in Resources */,
+				1AEEA3152EB7F0C8005A8F8A /* working_project_builder.py in Resources */,
+				1AEEA3162EB7F0C8005A8F8A /* deploy-widgets.ps1 in Resources */,
+				1AEEA3172EB7F0C8005A8F8A /* deduplicate_project.py in Resources */,
+				1AEEA3182EB7F0C8005A8F8A /* smart_project_import.py in Resources */,
+				1AEEA3192EB7F0C8005A8F8A /* test-fastlane-integration.sh in Resources */,
+				1AEEA31A2EB7F0C8005A8F8A /* swift-duplicate-types-scan.ps1 in Resources */,
+				1AEEA31B2EB7F0C8005A8F8A /* swift-windows-toolkit.ps1 in Resources */,
+				1AEEA31C2EB7F0C8005A8F8A /* deploy-widgets.sh in Resources */,
+				1AEEA31D2EB7F0C8005A8F8A /* SwiftDevelopmentProfile.ps1 in Resources */,
+				1AEEA31E2EB7F0C8005A8F8A /* minimal_starter_project.py in Resources */,
+				1AEEA31F2EB7F0C8005A8F8A /* project_stability_toolkit.sh in Resources */,
+				1AEEA3202EB7F0C8005A8F8A /* swift-lint-windows.ps1 in Resources */,
+				1AEEA3212EB7F0C8005A8F8A /* create_fresh_project.sh in Resources */,
+				1AEEA3222EB7F0C8005A8F8A /* check_project_health.sh in Resources */,
+				1AEEA3232EB7F0C8005A8F8A /* debug-exit-status-74.sh in Resources */,
+				1AEEA3242EB7F0C8005A8F8A /* build-cache-optimizer.sh in Resources */,
+				1AEEA3252EB7F0C8005A8F8A /* fallback-build.sh in Resources */,
+				1AEEA3262EB7F0C8005A8F8A /* build-performance-monitor.sh in Resources */,
+				1AEEA3272EB7F0C8005A8F8A /* automated_project_import.py in Resources */,
+				1AEEA3282EB7F0C8005A8F8A /* preflight-xcode-finalization.sh in Resources */,
+				1AEEA3292EB7F0C8005A8F8A /* final_project_fix.py in Resources */,
+				1AEEA32A2EB7F0C8005A8F8A /* Check-SwiftErrors.ps1 in Resources */,
+				1AEEA32B2EB7F0C8005A8F8A /* ultimate_recovery.sh in Resources */,
+				1AEEA32C2EB7F0C8005A8F8A /* validate-fastfile.sh in Resources */,
+				1AEEA32D2EB7F0C8005A8F8A /* fix_specific_duplicates.py in Resources */,
+				1AEEA2AE2EB7F0AE005A8F8A /* launch-vitalsense.sh in Resources */,
+				1AEEA2AF2EB7F0AE005A8F8A /* InfoWatch.plist in Resources */,
+				1AEEA2B02EB7F0AE005A8F8A /* LAUNCH-GUIDE.md in Resources */,
+				1AEEA2B12EB7F0AE005A8F8A /* OPTIMIZATION_IMPLEMENTATION_SUMMARY.md in Resources */,
+				1AEEA2B22EB7F0AE005A8F8A /* quick-start.sh in Resources */,
+				1AEEA2B32EB7F0AE005A8F8A /* README 2.md in Resources */,
+				1AEEA2B42EB7F0AE005A8F8A /* quick-check.sh in Resources */,
+				1AEEA2B52EB7F0AE005A8F8A /* Config.plist in Resources */,
+				1AEEA2B62EB7F0AE005A8F8A /* InfoWidgets.plist in Resources */,
+				1AEEA2B72EB7F0AE005A8F8A /* run-complete-setup.sh in Resources */,
+				1AEEA2B82EB7F0AE005A8F8A /* XCODE_SETUP_STEPS.md in Resources */,
+				1AEEA2B92EB7F0AE005A8F8A /* WIDGET_IMPLEMENTATION_COMPLETE.md in Resources */,
+				1AEEA2BA2EB7F0AE005A8F8A /* PROJECT_OVERVIEW.md in Resources */,
+				1AEEA2BB2EB7F0AE005A8F8A /* APP_STORE_SUBMISSION_CHECKLIST.md in Resources */,
+				1AEEA2BC2EB7F0AE005A8F8A /* PROJECT_OPTIMIZATION.md in Resources */,
+				1AEEA2BD2EB7F0AE005A8F8A /* README.md in Resources */,
+				1AEEA2BE2EB7F0AE005A8F8A /* setup-xcode-project.sh in Resources */,
+				1AEEA2BF2EB7F0AE005A8F8A /* UI_ENHANCEMENT_SETUP_GUIDE.md in Resources */,
+				1AEEA2C02EB7F0AE005A8F8A /* APP_STORE_MARKETING.md in Resources */,
+				1AEEA2C12EB7F0AE005A8F8A /* MAGIC_REPLACE_EXPANSION_SUMMARY.md in Resources */,
+				1AEEA2C22EB7F0AE005A8F8A /* ICON_IMPLEMENTATION_SUMMARY.md in Resources */,
+				1AEEA2C32EB7F0AE005A8F8A /* SWIFT_WINDOWS_DEVELOPMENT.md in Resources */,
+				1AEEA2C42EB7F0AE005A8F8A /* SWIFT_WINDOWS_COMPLETE_SUMMARY.md in Resources */,
+				1AEEA2C52EB7F0AE005A8F8A /* XCODE_PROJECT_VIEW_FIX.md in Resources */,
+				1AEEA2C62EB7F0AE005A8F8A /* create-screenshots.sh in Resources */,
+				1AEEA2C72EB7F0AE005A8F8A /* APP_STORE_CONNECT_GUIDE.md in Resources */,
+				1AEEA2C82EB7F0AE005A8F8A /* VitalSense_iOS_Enhancement_Summary.md in Resources */,
+				1AEEA2C92EB7F0AE005A8F8A /* generate-app-icons.sh in Resources */,
+				1AEEA2CA2EB7F0AE005A8F8A /* make-executable.sh in Resources */,
+				1AEEA2CB2EB7F0AE005A8F8A /* PROJECT_STATUS.md in Resources */,
+				1AEEA2CC2EB7F0AE005A8F8A /* QUICK_START.md in Resources */,
+				1AEEA2CD2EB7F0AE005A8F8A /* complete-integration.sh in Resources */,
+				1AEEA2CE2EB7F0AE005A8F8A /* Base.xcconfig in Resources */,
+				1AEEA2CF2EB7F0AE005A8F8A /* Debug.xcconfig in Resources */,
+				1AEEA2D02EB7F0AE005A8F8A /* README.md in Resources */,
+				1AEEA2D12EB7F0AE005A8F8A /* BUILD_SCRIPTS.md in Resources */,
+				1AEEA2D22EB7F0AE005A8F8A /* XCODE_FINALIZATION_CHECKLIST.md in Resources */,
+				1AEEA2D32EB7F0AE005A8F8A /* FINAL_DEPLOYMENT_CHECKLIST.md in Resources */,
+				1AEEA2D42EB7F0AE005A8F8A /* development-workflow.md in Resources */,
+				1AEEA2D52EB7F0AE005A8F8A /* README.md in Resources */,
+				1AEEA2D62EB7F0AE005A8F8A /* ORGANIZATION_SUMMARY.md in Resources */,
+				1AEEA2D72EB7F0AE005A8F8A /* deploy-testflight.sh in Resources */,
+				1AEEA2D82EB7F0AE005A8F8A /* XCODE-SETUP-GUIDE.md in Resources */,
+				1AEEA2D92EB7F0AE005A8F8A /* XCODE_UI_WALKTHROUGH.md in Resources */,
+				1AEEA2DA2EB7F0AE005A8F8A /* WIDGET_IMPLEMENTATION_GUIDE.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEEA2242EB7EDEF005A8F8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEEA22E2EB7EDEF005A8F8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AEEA2152EB7EDED005A8F8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEEA2482EB7EE9E005A8F8A /* GaitAnalyzer.swift in Sources */,
+				1AEEA2DB2EB7F0AE005A8F8A /* HealthKitManager.swift in Sources */,
+				1AEEA2DC2EB7F0AE005A8F8A /* VitalSenseWatchApp.swift in Sources */,
+				1AEEA2DD2EB7F0AE005A8F8A /* VitalSenseApp.swift in Sources */,
+				1AEEA2DE2EB7F0AE005A8F8A /* GaitAnalyzer.swift in Sources */,
+				1AEEA3322EB7F0CF005A8F8A /* VitalSenseCore.swift in Sources */,
+				1AEEA32E2EB7F0C8005A8F8A /* iOS26MigrationHelper.swift in Sources */,
+				1AEEA2F12EB7F0C1005A8F8A /* iOS26HealthComponents.swift in Sources */,
+				1AEEA2F22EB7F0C1005A8F8A /* iOS26ComponentIntegration.swift in Sources */,
+				1AEEA2F32EB7F0C1005A8F8A /* FallRiskConfig.swift in Sources */,
+				1AEEA2F42EB7F0C1005A8F8A /* iOS26Integration.swift in Sources */,
+				1AEEA2F52EB7F0C1005A8F8A /* GaitConfig.swift in Sources */,
+				1AEEA2F62EB7F0C1005A8F8A /* VitalSenseARManager.swift in Sources */,
+				1AEEA2442EB7EE45005A8F8A /* VitalSenseApp.swift in Sources */,
+				1AEEA2462EB7EE84005A8F8A /* HealthKitManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEEA2222EB7EDEF005A8F8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEEA22C2EB7EDEF005A8F8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AEEA2282EB7EDEF005A8F8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AEEA2182EB7EDED005A8F8A /* VitalSense */;
+			targetProxy = 1AEEA2272EB7EDEF005A8F8A /* PBXContainerItemProxy */;
+		};
+		1AEEA2322EB7EDEF005A8F8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AEEA2182EB7EDED005A8F8A /* VitalSense */;
+			targetProxy = 1AEEA2312EB7EDEF005A8F8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AEEA2382EB7EDEF005A8F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = C8U3P6AJ6L;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AEEA2392EB7EDEF005A8F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C8U3P6AJ6L;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AEEA23B2EB7EDEF005A8F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VitalSense/VitalSense.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8U3P6AJ6L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VitalSense;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.andernet.VitalSense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1AEEA23C2EB7EDEF005A8F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VitalSense/VitalSense.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8U3P6AJ6L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VitalSense;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.andernet.VitalSense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1AEEA23E2EB7EDEF005A8F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8U3P6AJ6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.andernet.VitalSenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VitalSense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VitalSense";
+			};
+			name = Debug;
+		};
+		1AEEA23F2EB7EDEF005A8F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8U3P6AJ6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.andernet.VitalSenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VitalSense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VitalSense";
+			};
+			name = Release;
+		};
+		1AEEA2412EB7EDEF005A8F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8U3P6AJ6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.andernet.VitalSenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VitalSense;
+			};
+			name = Debug;
+		};
+		1AEEA2422EB7EDEF005A8F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C8U3P6AJ6L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.andernet.VitalSenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VitalSense;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AEEA2142EB7EDED005A8F8A /* Build configuration list for PBXProject "VitalSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEEA2382EB7EDEF005A8F8A /* Debug */,
+				1AEEA2392EB7EDEF005A8F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AEEA23A2EB7EDEF005A8F8A /* Build configuration list for PBXNativeTarget "VitalSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEEA23B2EB7EDEF005A8F8A /* Debug */,
+				1AEEA23C2EB7EDEF005A8F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AEEA23D2EB7EDEF005A8F8A /* Build configuration list for PBXNativeTarget "VitalSenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEEA23E2EB7EDEF005A8F8A /* Debug */,
+				1AEEA23F2EB7EDEF005A8F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AEEA2402EB7EDEF005A8F8A /* Build configuration list for PBXNativeTarget "VitalSenseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEEA2412EB7EDEF005A8F8A /* Debug */,
+				1AEEA2422EB7EDEF005A8F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AEEA2112EB7EDED005A8F8A /* Project object */;
+}

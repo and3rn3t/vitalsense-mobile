@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'VitalSense' in project 'VitalSense'
+➜ Explicit dependency on target 'VitalSenseWatch Watch App' in project 'VitalSense'
+➜ Explicit dependency on target 'VitalSenseWidgetsExtension' in project 'VitalSense'
+Target 'VitalSenseWidgetsExtension' in project 'VitalSense' (no dependencies)
+Target 'VitalSenseWatch Watch App' in project 'VitalSense' (no dependencies)

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>userId</key>
+	<string>vitalsense-user</string>
+	<key>apiBaseURL</key>
+	<string>https://health.andernet.dev/api</string>
+	<key>webSocketURL</key>
+	<string>wss://health.andernet.dev/ws</string>
+	<key>useMLGaitRiskScorer</key>
+	<true/>
+	<key>useWatchCadenceFusion</key>
+	<true/>
+	<key>enableDebugLogging</key>
+	<false/>
+	<key>healthKitDataTypes</key>
+	<array>
+		<string>HKQuantityTypeIdentifierStepCount</string>
+		<string>HKQuantityTypeIdentifierWalkingSpeed</string>
+		<string>HKQuantityTypeIdentifierWalkingStepLength</string>
+		<string>HKQuantityTypeIdentifierWalkingAsymmetryPercentage</string>
+		<string>HKQuantityTypeIdentifierWalkingDoubleSupportPercentage</string>
+		<string>HKQuantityTypeIdentifierSixMinuteWalkTestDistance</string>
+		<string>HKQuantityTypeIdentifierAppleWalkingSteadiness</string>
+		<string>HKQuantityTypeIdentifierHeartRate</string>
+	</array>
+	<key>gaitAnalysisSettings</key>
+	<dict>
+		<key>minimumWalkingDuration</key>
+		<integer>30</integer>
+		<key>samplingFrequency</key>
+		<integer>100</integer>
+		<key>fallRiskThreshold</key>
+		<real>0.75</real>
+	</dict>
+</dict>
+</plist>

@@ -12,19 +12,7 @@ import SwiftUI
 @main
 struct VitalSenseWidgetsBundle: WidgetBundle {
     var body: some Widget {
-        // Main health widgets
-        VitalSenseHealthWidget()
-
-        // Specialized widgets
-        VitalSenseHeartRateWidget()
-        VitalSenseActivityWidget()
-        VitalSenseStepsWidget()
-
-        // Interactive and live activities
-        VitalSenseWidgetsControl()
-        VitalSenseWidgetsLiveActivity()
-
-        // Legacy support (can be removed once migration is complete)
+        // Only include the basic working widget
         VitalSenseWidgets()
     }
 }
