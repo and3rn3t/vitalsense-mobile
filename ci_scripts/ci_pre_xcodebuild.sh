@@ -6,7 +6,7 @@
 
 set -e
 
-echo "🚀 Starting VitalSense pre-build setup..."
+echo "🚀 Starting AnderMotion pre-build setup..."
 
 # Install dependencies if needed
 if [ -f "Package.swift" ]; then
@@ -74,7 +74,7 @@ echo "📱 Build Platform: $XC_PLATFORM_NAME"
 # For VitalSense health app specific setup
 if [[ "$XC_SCHEME" == *"VitalSense"* ]]; then
     echo "🏥 Setting up VitalSense health app build..."
-    
+
     # Ensure HealthKit entitlements are properly configured
     if [ -f "VitalSense/VitalSense.entitlements" ]; then
         echo "✅ HealthKit entitlements found"
@@ -94,7 +94,7 @@ if [[ "$XC_SCHEME" == *"VitalSense"* ]]; then
 </plist>
 ENTITLEMENTS_EOF
     fi
-    
+
     # Validate Info.plist has required health permissions
     if [ -f "VitalSense/Info.plist" ]; then
         echo "✅ Info.plist found"

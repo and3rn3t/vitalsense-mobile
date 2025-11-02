@@ -2,13 +2,13 @@
   "version" : 1,
   "workflows" : [
     {
-      "name" : "VitalSense Build and Test",
-      "description" : "Build and test VitalSense iOS app with comprehensive testing",
+      "name" : "AnderMotion Build and Test",
+      "description" : "Build and test AnderMotion iOS app with comprehensive testing",
       "actions" : [
         {
           "name" : "Build and Test",
           "actionType" : "buildAndTest",
-          "scheme" : "VitalSense",
+          "scheme" : "AnderMotion",
           "platform" : "iOS",
           "osVersion" : "17.0",
           "deviceModel" : "iPhone 15",

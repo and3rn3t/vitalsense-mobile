@@ -2,13 +2,13 @@
   "version" : 1,
   "workflows" : [
     {
-      "name" : "VitalSense Release Build",
-      "description" : "Build release version of VitalSense for App Store distribution",
+      "name" : "AnderMotion Release Build",
+      "description" : "Build release version of AnderMotion for App Store distribution",
       "actions" : [
         {
           "name" : "Archive",
           "actionType" : "archive",
-          "scheme" : "VitalSense",
+          "scheme" : "AnderMotion",
           "platform" : "iOS",
           "configuration" : "Release",
           "destination" : "generic/platform=iOS"
