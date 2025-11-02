@@ -1,0 +1,61 @@
+// Release configuration for VitalSense
+// Includes Base.xcconfig settings plus production optimizations
+
+#include "Base.xcconfig"
+
+// MARK: - Release Build Settings
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+ENABLE_TESTABILITY = NO
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) RELEASE
+SWIFT_OPTIMIZATION_LEVEL = -O
+GCC_OPTIMIZATION_LEVEL = fast
+
+// MARK: - Swift Compiler - Code Generation
+SWIFT_COMPILATION_MODE = wholemodule
+SWIFT_WHOLE_MODULE_OPTIMIZATION = YES
+
+// MARK: - Link-Time Optimization
+LLVM_LTO = YES_THIN
+
+// MARK: - Code Signing
+CODE_SIGN_IDENTITY = Apple Distribution
+
+// MARK: - Deployment & Distribution
+COPY_PHASE_STRIP = YES
+STRIP_INSTALLED_PRODUCT = YES
+SEPARATE_STRIP = YES
+STRIP_SWIFT_SYMBOLS = YES
+
+// MARK: - Symbol Visibility
+GCC_INLINES_ARE_PRIVATE_EXTERN = YES
+GCC_SYMBOLS_PRIVATE_EXTERN = YES
+
+// MARK: - Dead Code Elimination
+DEAD_CODE_STRIPPING = YES
+PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO
+
+// MARK: - Security & Validation
+VALIDATE_PRODUCT = YES
+ENABLE_NS_ASSERTIONS = NO
+ENABLE_STRICT_OBJC_MSGSEND = YES
+
+// MARK: - Performance Optimizations
+SWIFT_SERIALIZE_DEBUGGING_OPTIONS = NO
+GCC_GENERATE_DEBUGGING_SYMBOLS = NO
+
+// MARK: - Health App Production Optimizations
+OTHER_SWIFT_FLAGS = $(inherited) -DRELEASE -DHEALTHKIT_PRODUCTION
+
+// MARK: - Build Performance
+ONLY_ACTIVE_ARCH = NO
+BUILD_LIBRARY_FOR_DISTRIBUTION = YES
+
+// MARK: - Size Optimizations
+SWIFT_REFLECTION_METADATA_LEVEL = minimal
+GCC_UNROLL_LOOPS = YES
+
+// MARK: - Metal Optimizations (for potential health visualizations)
+MTL_FAST_MATH = YES
+
+// MARK: - Runtime Performance
+SWIFT_DETERMINISTIC_HASHING = YES
