@@ -7,7 +7,7 @@ $scriptPath = Join-Path $PSScriptRoot "ci_scripts"
 
 if (Test-Path $scriptPath) {
     Write-Host "✅ CI scripts directory found at: $scriptPath" -ForegroundColor Green
-    
+
     Get-ChildItem -Path $scriptPath -Filter "*.sh" | ForEach-Object {
         Write-Host "📄 Found script: $($_.Name)" -ForegroundColor Yellow
     }

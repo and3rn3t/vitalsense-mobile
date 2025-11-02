@@ -16,6 +16,7 @@ This guide will help you set up Xcode Cloud for the VitalSense mobile applicatio
 ### 1. Repository Configuration
 
 The repository already includes:
+
 - ✅ `.xcode-cloud/` directory with workflow definitions
 - ✅ `ci_scripts/` directory with build scripts
 - ✅ Xcode project and workspace files
@@ -40,6 +41,7 @@ The repository already includes:
 ### 3. Xcode Project Configuration
 
 1. **Open Project**
+
    ```bash
    open VitalSense.xcworkspace
    ```
@@ -73,11 +75,13 @@ The repository already includes:
 ### 5. Environment Configuration
 
 Required environment variables (auto-configured):
+
 - `CI=true`
 - `XCODE_CLOUD=true`
 - `CONFIGURATION` (Debug/Release)
 
 Optional variables you may want to add:
+
 - `APP_IDENTIFIER` - Your bundle identifier
 - `TEAM_ID` - Apple Developer Team ID
 
@@ -104,11 +108,13 @@ Optional variables you may want to add:
 ## 📊 Monitoring Your Builds
 
 ### Build Triggers
+
 - **Automatic**: Pushes to `main`, `develop`, and pull requests
 - **Release**: Tags matching `v*.*.*` pattern
 - **Manual**: Via Xcode Cloud console
 
 ### Build Artifacts
+
 - Test results and coverage reports
 - Archive files for distribution
 - Build logs and diagnostics
@@ -116,21 +122,27 @@ Optional variables you may want to add:
 ## 🚨 Common Issues & Solutions
 
 ### HealthKit Entitlement Errors
+
 ```
 Error: HealthKit entitlement not found
 ```
+
 **Solution**: Enable HealthKit capability in App ID and regenerate provisioning profiles
 
 ### Watch App Build Failures
+
 ```
 Error: watchOS deployment target not supported
 ```
+
 **Solution**: Update Watch app deployment target to watchOS 10.0+
 
 ### Code Signing Issues
+
 ```
 Error: No matching provisioning profiles found
 ```
+
 **Solution**: Use automatic signing or create manual profiles with correct bundle IDs
 
 ## 📞 Getting Help
@@ -143,6 +155,7 @@ Error: No matching provisioning profiles found
 ## 🎯 Next Steps
 
 Once Xcode Cloud is working:
+
 1. Set up TestFlight integration
 2. Configure App Store Connect API keys
 3. Enable notifications for build status

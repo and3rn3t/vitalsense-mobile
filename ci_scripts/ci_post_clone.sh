@@ -17,12 +17,12 @@ echo "🔧 Setting up system dependencies..."
 # Ruby setup for Fastlane
 if [ -f "Gemfile" ]; then
     echo "💎 Setting up Ruby environment..."
-    
+
     # Install bundler if not present
     if ! command -v bundle >/dev/null 2>&1; then
         gem install bundler
     fi
-    
+
     # Install gems
     bundle install --path vendor/bundle
 fi

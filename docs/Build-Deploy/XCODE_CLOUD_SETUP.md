@@ -7,18 +7,21 @@ This document provides comprehensive information about the Xcode Cloud configura
 ## 🏗️ Workflow Configuration
 
 ### Build and Test Workflow (`ci_build_and_test.xcodebuild`)
+
 - **Triggers**: Pull requests and pushes to `main` and `develop` branches
 - **Actions**: Build and test iOS app with iPhone 15 simulator
 - **Platform**: iOS 17.0+
 - **Configuration**: Debug
 
 ### Release Workflow (`ci_release.xcodebuild`)
+
 - **Triggers**: Git tags matching `v*` pattern and pushes to `release/*` branches
 - **Actions**: Archive and export IPA for App Store distribution
 - **Configuration**: Release
 - **Export Method**: App Store Connect
 
 ### Watch App Workflow (`ci_watch_build.xcodebuild`)
+
 - **Triggers**: Pull requests and path-filtered pushes for Watch app changes
 - **Actions**: Build and test watchOS companion app
 - **Platform**: watchOS 10.0+ with Apple Watch Series 9 simulator
@@ -27,21 +30,27 @@ This document provides comprehensive information about the Xcode Cloud configura
 ## 📋 CI Scripts
 
 ### `ci_post_clone.sh`
+
 Runs after repository clone:
+
 - Sets up Ruby/Fastlane environment
 - Configures Swift Package Manager
 - Verifies HealthKit and WatchKit entitlements
 - Creates necessary build directories
 
 ### `ci_pre_xcodebuild.sh`
+
 Runs before build starts:
+
 - Installs dependencies (Ruby gems, SPM packages)
 - Verifies Xcode and simulator availability
 - Sets environment variables
 - Creates build artifact directories
 
 ### `ci_post_xcodebuild.sh`
+
 Runs after build completion:
+
 - Archives test results and coverage data
 - Generates build artifacts summary
 - Performs release build validations
@@ -50,6 +59,7 @@ Runs after build completion:
 ## 🔧 Environment Variables
 
 The following environment variables are automatically set:
+
 - `CI=true` - Indicates CI environment
 - `XCODE_CLOUD=true` - Specific to Xcode Cloud
 - `CONFIGURATION` - Build configuration (Debug/Release)
@@ -57,11 +67,13 @@ The following environment variables are automatically set:
 ## 📱 Platform Requirements
 
 ### iOS App
+
 - **Minimum**: iOS 17.0
 - **Target Device**: iPhone 15 (simulator)
 - **Frameworks**: SwiftUI, HealthKit, Core Motion
 
 ### watchOS App
+
 - **Minimum**: watchOS 10.0  
 - **Target Device**: Apple Watch Series 9 (simulator)
 - **Frameworks**: WatchKit, HealthKit
@@ -69,11 +81,13 @@ The following environment variables are automatically set:
 ## 🏥 HealthKit Integration
 
 The VitalSense app requires specific HealthKit capabilities:
+
 - **Entitlements**: `com.apple.developer.healthkit`
 - **Privacy**: Health data access permissions
 - **Compliance**: App Store health app guidelines
 
 Required Info.plist entries:
+
 ```xml
 <key>NSHealthShareUsageDescription</key>
 <string>VitalSense reads your health data to provide personalized gait analysis and health insights.</string>
@@ -84,11 +98,13 @@ Required Info.plist entries:
 ## 🔐 Code Signing & Provisioning
 
 ### Development
+
 - **Team ID**: Set via Apple Developer account
 - **Bundle ID**: `com.vitalsense.mobile` (or configured identifier)
 - **Capabilities**: HealthKit, App Groups, Background Processing
 
 ### Distribution
+
 - **Method**: App Store Connect
 - **Bitcode**: Disabled (as per iOS 14+ requirements)
 - **Symbols**: Upload enabled for crash analytics
@@ -96,12 +112,14 @@ Required Info.plist entries:
 ## 📊 Test Plans
 
 ### Unit Tests (`VitalSenseTests.xctestplan`)
+
 - Core business logic testing
 - HealthKit integration tests
 - Data model validation
 - Performance benchmarks
 
 ### UI Tests (`VitalSenseUITests`)
+
 - End-to-end user workflows
 - Accessibility validation
 - Widget functionality
@@ -110,12 +128,14 @@ Required Info.plist entries:
 ## 🚀 Deployment Strategy
 
 ### Automated Triggers
+
 1. **Feature Development**: Push to `develop` → Build and test
 2. **Pull Requests**: Any target branch → Full validation
 3. **Release Preparation**: Push to `release/*` → Release build
 4. **Production Release**: Tag with `v*` → App Store archive
 
 ### Manual Triggers
+
 - Ad-hoc builds via Xcode Cloud console
 - TestFlight distributions
 - App Store submissions
@@ -123,12 +143,14 @@ Required Info.plist entries:
 ## 📈 Monitoring & Analytics
 
 ### Build Analytics
+
 - Build duration tracking
 - Test success rates
 - Archive size monitoring
 - Deployment frequency metrics
 
 ### Quality Gates
+
 - Unit test coverage minimum: 80%
 - UI test pass rate: 100%
 - Static analysis warnings: Zero tolerance
@@ -154,6 +176,7 @@ Required Info.plist entries:
    - Check provisioning profile device registrations
 
 ### Debug Information
+
 - Build logs available in Xcode Cloud console
 - Test results exported as xcresult bundles
 - Crash reports integrated with Xcode Organizer
@@ -161,6 +184,7 @@ Required Info.plist entries:
 ## 📞 Support
 
 For Xcode Cloud configuration issues:
+
 1. Check Apple Developer documentation
 2. Verify project settings in Xcode
 3. Review build logs in App Store Connect

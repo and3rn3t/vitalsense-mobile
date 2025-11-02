@@ -18,11 +18,11 @@ fi
 # Archive test results if available
 if [ -d "$CI_DERIVED_DATA_PATH" ]; then
     echo "📊 Archiving test results..."
-    
+
     # Find test result bundles
     find "$CI_DERIVED_DATA_PATH" -name "*.xcresult" -type d | while read result_bundle; do
         echo "📋 Found test results: $(basename "$result_bundle")"
-        
+
         # Generate readable test summary
         if command -v xcrun >/dev/null 2>&1; then
             xcrun xcresulttool get --format json --path "$result_bundle" > "test_results_$(date +%Y%m%d_%H%M%S).json" || true
@@ -50,14 +50,14 @@ fi
 # Run additional checks if this is a release build
 if [ "$CONFIGURATION" = "Release" ]; then
     echo "🔍 Running release build validations..."
-    
+
     # Validate app icon and metadata
     if [ -f "VitalSense/Resources/Assets.xcassets/AppIcon.appiconset/Contents.json" ]; then
         echo "✅ App icon assets found"
     else
         echo "⚠️ App icon assets not found"
     fi
-    
+
     # Check for required Info.plist entries
     if [ -f "VitalSense/Support/Info.plist" ]; then
         echo "✅ Info.plist found"
