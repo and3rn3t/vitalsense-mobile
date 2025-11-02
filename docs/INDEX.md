@@ -41,6 +41,8 @@ Building, testing, and deployment processes.
 
 - **[BUILD_SCRIPTS.md](./Build-Deploy/BUILD_SCRIPTS.md)** - Build automation and scripts
 - **[XCODE_FINALIZATION_CHECKLIST.md](./Build-Deploy/XCODE_FINALIZATION_CHECKLIST.md)** - Pre-release checklist
+- **[XCODE_CLOUD_QUICKSTART.md](./Build-Deploy/XCODE_CLOUD_QUICKSTART.md)** - Quick setup guide for Xcode Cloud
+- **[XCODE_CLOUD_SETUP.md](./Build-Deploy/XCODE_CLOUD_SETUP.md)** - Comprehensive Xcode Cloud configuration
 
 ### 📋 [Project-Management](./Project-Management/)
 

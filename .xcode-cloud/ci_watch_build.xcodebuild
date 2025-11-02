@@ -1,0 +1,47 @@
+{
+  "version" : 1,
+  "workflows" : [
+    {
+      "name" : "VitalSense Watch App Build",
+      "description" : "Build and test VitalSense watchOS companion app",
+      "actions" : [
+        {
+          "name" : "Build Watch App",
+          "actionType" : "buildAndTest",
+          "scheme" : "VitalSenseWatch Watch App",
+          "platform" : "watchOS",
+          "osVersion" : "10.0",
+          "deviceModel" : "Apple Watch Series 9",
+          "configuration" : "Debug"
+        }
+      ],
+      "triggers" : [
+        {
+          "type" : "pullRequest",
+          "branch" : "main"
+        },
+        {
+          "type" : "push",
+          "branch" : "main",
+          "pathFilter" : [
+            "VitalSenseWatch Watch App/**",
+            "VitalSense/Core/**",
+            "Sources/**"
+          ]
+        }
+      ],
+      "environment" : {
+        "variables" : [
+          {
+            "name" : "CI",
+            "value" : "true"
+          },
+          {
+            "name" : "XCODE_CLOUD",
+            "value" : "true"
+          }
+        ]
+      }
+    }
+  ]
+}

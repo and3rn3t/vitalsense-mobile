@@ -1,0 +1,55 @@
+{
+  "version" : 1,
+  "workflows" : [
+    {
+      "name" : "VitalSense Release Build",
+      "description" : "Build release version of VitalSense for App Store distribution",
+      "actions" : [
+        {
+          "name" : "Archive",
+          "actionType" : "archive",
+          "scheme" : "VitalSense",
+          "platform" : "iOS",
+          "configuration" : "Release",
+          "destination" : "generic/platform=iOS"
+        },
+        {
+          "name" : "Export IPA",
+          "actionType" : "export",
+          "exportOptions" : {
+            "method" : "app-store",
+            "uploadBitcode" : false,
+            "uploadSymbols" : true,
+            "compileBitcode" : false
+          }
+        }
+      ],
+      "triggers" : [
+        {
+          "type" : "tag",
+          "pattern" : "v*"
+        },
+        {
+          "type" : "push",
+          "branch" : "release/*"
+        }
+      ],
+      "environment" : {
+        "variables" : [
+          {
+            "name" : "CI",
+            "value" : "true"
+          },
+          {
+            "name" : "XCODE_CLOUD",
+            "value" : "true"
+          },
+          {
+            "name" : "CONFIGURATION",
+            "value" : "Release"
+          }
+        ]
+      }
+    }
+  ]
+}
