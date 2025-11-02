@@ -267,8 +267,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				1AB1EEF62E86D2FE001D11D5 /* PBXTargetDependency */,
-				1AB1EF282E86D714001D11D5 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				1A8D07742E6497B50024A466 /* VitalSense */,
@@ -603,12 +601,10 @@
 			target = 1AB1EED62E86D2FB001D11D5 /* VitalSenseWatch Watch App */;
 			targetProxy = 1AB1EEEE2E86D2FE001D11D5 /* PBXContainerItemProxy */;
 		};
-		1AB1EEF62E86D2FE001D11D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1AB1EED62E86D2FB001D11D5 /* VitalSenseWatch Watch App */;
 			targetProxy = 1AB1EEF52E86D2FE001D11D5 /* PBXContainerItemProxy */;
 		};
-		1AB1EF282E86D714001D11D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1AB1EF122E86D713001D11D5 /* VitalSenseWidgetsExtension */;
 			targetProxy = 1AB1EF272E86D714001D11D5 /* PBXContainerItemProxy */;

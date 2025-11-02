@@ -1,0 +1,12 @@
+{
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSenseWatch Watch App/Connectivity/WatchConnectivityManager.swift" : {
+    "abi-baseline-json" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatch_Watch_App.abi.json",
+    "const-values" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatch Watch App-primary.swiftconstvalues",
+    "dependencies" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatch Watch App-primary.d",
+    "diagnostics" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatch Watch App-primary.dia",
+    "objc-header" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatch_Watch_App-Swift.h",
+    "swiftdoc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatch_Watch_App.swiftdoc",
+    "swiftmodule" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatch_Watch_App.swiftmodule",
+    "swiftsourceinfo" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatch_Watch_App.swiftsourceinfo"
+  }
+}

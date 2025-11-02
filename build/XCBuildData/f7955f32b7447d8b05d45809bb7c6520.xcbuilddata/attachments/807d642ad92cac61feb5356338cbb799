@@ -1,0 +1,76 @@
+{
+  "" : {
+    "const-values" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatch Watch App-primary.swiftconstvalues",
+    "dependencies" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatch Watch App-primary.d",
+    "diagnostics" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatch Watch App-primary.dia",
+    "emit-module-dependencies" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatch Watch App-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatch Watch App-primary-emit-module.dia",
+    "pch" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatch Watch App-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatch Watch App-primary.swiftdeps"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSenseWatch Watch App/Connectivity/WatchConnectivityManager.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchConnectivityManager.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchConnectivityManager.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchConnectivityManager.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSenseWatch Watch App/ContentView.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/ContentView.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/ContentView.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/ContentView.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSenseWatch Watch App/Managers/WatchHealthManager.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchHealthManager.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchHealthManager.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchHealthManager.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSenseWatch Watch App/Shared/WatchConnectivityMessages.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchConnectivityMessages.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchConnectivityMessages.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchConnectivityMessages.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSenseWatch Watch App/Views/ComprehensiveWatchGaitView.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/ComprehensiveWatchGaitView.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/ComprehensiveWatchGaitView.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/ComprehensiveWatchGaitView.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSenseWatch Watch App/Views/EnhancedLiDARWatchView.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/EnhancedLiDARWatchView.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/EnhancedLiDARWatchView.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/EnhancedLiDARWatchView.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSenseWatch Watch App/Views/EnhancedWatchDashboard.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/EnhancedWatchDashboard.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/EnhancedWatchDashboard.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/EnhancedWatchDashboard.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSenseWatch Watch App/Views/RemoteControlDashboard.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/RemoteControlDashboard.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/RemoteControlDashboard.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/RemoteControlDashboard.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSenseWatch Watch App/Views/WatchSettingsView.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchSettingsView.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchSettingsView.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchSettingsView.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSenseWatch Watch App/VitalSenseWatchDashboard.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatchDashboard.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatchDashboard.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/VitalSenseWatchDashboard.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSenseWatch Watch App/WatchApp.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchApp.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchApp.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchApp.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSenseWatch Watch App/WatchLiDARIntegrationManager.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchLiDARIntegrationManager.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchLiDARIntegrationManager.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/WatchLiDARIntegrationManager.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/GeneratedAssetSymbols.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-watchos/VitalSenseWatch Watch App.build/Objects-normal/arm64_32/GeneratedAssetSymbols.o"
+  }
+}

@@ -1,23 +1,28 @@
 #!/bin/bash
 
-# VitalSense Final Launch Script
-# Complete setup and launch preparation
+# VitalSense Launch Script - Optimized & Clean
+# Sets up a working iOS health monitoring app
 
-echo "🚀 VitalSense Final Launch Preparation"
-echo "======================================"
+echo "🚀 VitalSense Launch Preparation"
+echo "================================"
 
-# Make all scripts executable
-chmod +x *.sh
-
-echo "✅ All scripts are now executable"
+# First, ensure all scripts have correct permissions
+echo "🔧 Setting up script permissions..."
+echo "   If you get 'permission denied' errors, run:"
+echo "   chmod +x *.sh && chmod +x ci_scripts/*.sh"
 echo ""
 
-echo "🔧 Running complete integration..."
-./complete-integration.sh
+chmod +x setup-permissions.sh 2>/dev/null || true
+if [ -f "setup-permissions.sh" ] && [ -x "setup-permissions.sh" ]; then
+    ./setup-permissions.sh
+else
+    echo "⚠️  Permission setup script not found, trying manual approach..."
+    chmod +x *.sh 2>/dev/null || true
+    chmod +x ci_scripts/*.sh 2>/dev/null || true
+    echo "✅ Basic permissions set"
+fi
 
 echo ""
-echo "🎯 LAUNCH CHECKLIST - DO THIS NOW:"
-echo "================================="
 echo ""
 
 echo "📱 1. CREATE XCODE PROJECT (10 minutes):"

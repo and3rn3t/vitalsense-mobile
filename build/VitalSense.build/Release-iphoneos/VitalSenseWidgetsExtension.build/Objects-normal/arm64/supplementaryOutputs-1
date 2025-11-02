@@ -1,0 +1,12 @@
+{
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSenseWidgets/AppIntent.swift" : {
+    "abi-baseline-json" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSenseWidgetsExtension.build/Objects-normal/arm64/VitalSenseWidgetsExtension.abi.json",
+    "const-values" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSenseWidgetsExtension.build/Objects-normal/arm64/VitalSenseWidgetsExtension-primary.swiftconstvalues",
+    "dependencies" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSenseWidgetsExtension.build/Objects-normal/arm64/VitalSenseWidgetsExtension-primary.d",
+    "diagnostics" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSenseWidgetsExtension.build/Objects-normal/arm64/VitalSenseWidgetsExtension-primary.dia",
+    "objc-header" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSenseWidgetsExtension.build/Objects-normal/arm64/VitalSenseWidgetsExtension-Swift.h",
+    "swiftdoc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSenseWidgetsExtension.build/Objects-normal/arm64/VitalSenseWidgetsExtension.swiftdoc",
+    "swiftmodule" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSenseWidgetsExtension.build/Objects-normal/arm64/VitalSenseWidgetsExtension.swiftmodule",
+    "swiftsourceinfo" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSenseWidgetsExtension.build/Objects-normal/arm64/VitalSenseWidgetsExtension.swiftsourceinfo"
+  }
+}

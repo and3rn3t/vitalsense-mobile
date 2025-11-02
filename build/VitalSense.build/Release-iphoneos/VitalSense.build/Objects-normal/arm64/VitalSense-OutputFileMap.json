@@ -1,0 +1,86 @@
+{
+  "" : {
+    "const-values" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSense-primary.swiftconstvalues",
+    "dependencies" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSense-primary.d",
+    "diagnostics" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSense-primary.dia",
+    "emit-module-dependencies" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSense-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSense-primary-emit-module.dia",
+    "pch" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSense-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSense-primary.swiftdeps"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSense/GaitAnalyzer.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/GaitAnalyzer.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/GaitAnalyzer.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/GaitAnalyzer.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSense/HealthKitBridge/Generated/FallRiskConfig.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/FallRiskConfig.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/FallRiskConfig.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/FallRiskConfig.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSense/HealthKitBridge/Generated/GaitConfig.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/GaitConfig.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/GaitConfig.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/GaitConfig.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSense/HealthKitBridge/VitalSenseARManager.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseARManager.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseARManager.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseARManager.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSense/HealthKitBridge/iOS26Enhancements/iOS26ComponentIntegration.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/iOS26ComponentIntegration.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/iOS26ComponentIntegration.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/iOS26ComponentIntegration.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSense/HealthKitBridge/iOS26Enhancements/iOS26HealthComponents.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/iOS26HealthComponents.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/iOS26HealthComponents.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/iOS26HealthComponents.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSense/HealthKitBridge/iOS26Enhancements/iOS26Integration.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/iOS26Integration.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/iOS26Integration.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/iOS26Integration.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSense/HealthKitManager.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/HealthKitManager.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/HealthKitManager.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/HealthKitManager.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSense/Sources/VitalSenseCore/VitalSenseCore.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseCore.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseCore.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseCore.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSense/VitalSenseApp.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseApp.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseApp.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseApp.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSense/VitalSenseTests/VitalSenseTests.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseTests.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseTests.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseTests.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSense/VitalSenseUITests/VitalSenseUITests.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseUITests.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseUITests.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseUITests.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSense/VitalSenseUITests/VitalSenseUITestsLaunchTests.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseUITestsLaunchTests.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseUITestsLaunchTests.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/VitalSenseUITestsLaunchTests.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/VitalSense/scripts/iOS26MigrationHelper.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/iOS26MigrationHelper.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/iOS26MigrationHelper.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/iOS26MigrationHelper.o"
+  },
+  "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/ma55700/Documents/GitHub/vitalsense-mobile/build/VitalSense.build/Release-iphoneos/VitalSense.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}
